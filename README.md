@@ -4,12 +4,13 @@ Automatically download all the Resident Advisor Podcast episodes in their origin
 Uses Python3 requests and BeautifulSoup4.
 
 ## Usage
-1. Clone this repository
+1. Clone this repo.
 
-2. Install dependencies with ```pip install requirements.txt```
+2. Install dependencies with ```pip install requirements.txt```.
 
 3.  Run the script with ```python dowloader.py```.
 You can specify the folder where to save downloaded podcasts with the flag ```--downloads_dir``` and the max number of concurrent threads with ```--max_threads```.
+
 
 ## How it works
 On Resident Advisor's webpage only the latest 4 episodes can be downloaded in mp3 in their original quality. Previous episodes can only be streamed from Soundcloud.
@@ -45,4 +46,8 @@ podcast_date = date.strftime("%y%m%d")
 mp3_urls = [MP3_TEMPLATE_URL.format(podcast_num, podcast_date, podcast_artist)]
 ```
 
-This way, I managed to download most episodes all the way back to RA500 (approx. 20 GB)
+This way, I managed to download most episodes all the way back to RA500 (approx. 20 GB).
+
+## Download Links
+I've put in a gist all the working links to download the podcasts in mp3 that I found with this method:
+https://gist.github.com/d3rezz/16292c8d6ad07003aae7edd4e6843669
