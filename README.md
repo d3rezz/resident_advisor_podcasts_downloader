@@ -49,5 +49,7 @@ mp3_urls = [MP3_TEMPLATE_URL.format(podcast_num, podcast_date, podcast_artist)]
 This way, I managed to download most episodes all the way back to RA500 (approx. 20 GB).
 
 ## Download Links
-I've put in a gist all the working links to download the podcasts in mp3 that I found with this method:
+I've put in a text file all the working links to download the RA Podcasts in mp3 that I found with this method:
 https://gist.github.com/d3rezz/16292c8d6ad07003aae7edd4e6843669
+
+Enjoy!
